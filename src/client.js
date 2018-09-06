@@ -25,7 +25,7 @@
         factory(jQuery);
     }
 }(function ($) {
-    const ipcRenderer = require('electron').ipcRenderer;
+    const ipcRenderer = window.require('electron').ipcRenderer;
     const EventEmitter = require('events');
 
     /**
