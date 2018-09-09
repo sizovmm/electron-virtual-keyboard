@@ -36,7 +36,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         factory(jQuery);
     }
 })(function ($) {
-    var ipcRenderer = require('electron').ipcRenderer;
+    var ipcRenderer = window.require('electron').ipcRenderer;
     var EventEmitter = require('events');
 
     /**
